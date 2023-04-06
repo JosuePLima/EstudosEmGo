@@ -1,8 +1,8 @@
 /* Em Go, os tipos de dados são divididos em duas categorias principais: tipos básicos e tipos compostos.
 
-Os tipos básicos incluem:
+- Os tipos básicos incluem:
 
-bool: que representa um valor booleano verdadeiro ou falso;
+-- bool: que representa um valor booleano verdadeiro ou falso;
 string: que representa uma sequência de caracteres;
 int, int8, int16, int32, int64: que representam números inteiros com diferentes tamanhos;
 uint, uint8 (ou byte), uint16, uint32, uint64, uintptr: que representam números inteiros sem sinal com diferentes tamanhos;
