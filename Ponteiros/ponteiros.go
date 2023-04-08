@@ -1,10 +1,10 @@
 /* Em Go, os ponteiros são usados para referenciar a memória de uma variável em vez de seu valor. Um ponteiro é um valor que contém o endereço de memória de uma variável. Quando você tem um ponteiro para uma variável, você pode acessar ou modificar o valor da variável referenciada diretamente, sem precisar copiar o valor para outra variável.
 
-Em Go, um ponteiro é denotado pelo operador "&" (ampersand) antes de uma variável e pelo operador "*" (asterisco) antes de um ponteiro. Para declarar um ponteiro, usamos a seguinte sintaxe: */
+Em Go, um ponteiro é denotado pelo operador "&" (ampersand) antes de uma variável e pelo operador "*" (asterisco) antes de um ponteiro. Para declarar um ponteiro, usamos a seguinte sintaxe:*/
 
 var p *int
 
-/* Nesse caso, declaramos um ponteiro para um inteiro. Podemos inicializar esse ponteiro para apontar para uma variável específica usando o operador "&", como mostrado abaixo: */
+/* Nesse caso, declaramos um ponteiro para um inteiro. Podemos inicializar esse ponteiro para apontar para uma variável específica usando o operador "&", como mostrado abaixo:*/
 
 var i int = 42
 p = &i
